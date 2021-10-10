@@ -1,0 +1,9 @@
+name: exp_comparison_baseline_mf_PROB
+program: main.py
+method: grid
+metric: 
+  name: env_cumulative_reward
+  goal: maximize
+parameters: 
+  env_seed:
+    values: [0,1,2,3,4,5,6, 7, 8, 9]
